@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora Financiera</title>
+    <link rel="stylesheet" href="./css/interes_simple.css">
+  </head>
+  <body>
+    <!-- calculadora 1 -->
+    <h2>Calculadora de Interés Generado</h2>
+    <div class="calculadora1">
+      <p> <b class='texto1'> Capital Inicial </b> <br> <input type="number" id='capital' class="valoresCuadro" placeholder="0"><b>$</b> <br>
+      <b class='texto1'>  Tasa de Interés</b> <br> <input type="number" id='interes' class="valoresCuadro" placeholder="0"><b>%</b> <br>
+      <b class='texto1'>  Tiempo</b> <br> <input type="number" id='tiempo' class="valoresCuadro" placeholder="0">
+      <form name=formulario>
+        <select  name="listaTiempo" class="listas">
+          <option value="escoge" disabled selected>Selecciona Cantidad de Tiempo...</option>
+          <option value="meses">Meses</option>
+          <option value="años">Años</option>
+          <option value="dias">Días</option>
+        </select> </p>
+      </form>
+
+    <input type="submit" id='calcular001' class='boton' value="Calcular"><br>
+    <input type="number" id='resultado' class="resultadoPantalla"  placeholder="Interes Generado" disabled>
+    </div>
+
+  <h2>Calculadora de Tasa de  Interés</h2>
+
+  <div class="calculadora2">
+    <p> <b class='texto1'> Capital Final </b> <br> <input type="number" id='capitalFinal2' class="valoresCuadro" placeholder="0"><b>$</b> <br>
+    <b class='texto1'>  Capital Inicial</b> <br> <input type="number" id='capital2' class="valoresCuadro" placeholder="0"><b>$</b> <br>
+    <b class='texto1'>  Tiempo</b> <br> <input type="number" id='tiempo2' class="valoresCuadro" placeholder="0">
+    <form name=formulario2>
+      <select  name="listaTiempo2" class="listas">
+        <option value="escoge" disabled selected>Selecciona Cantidad de Tiempo...</option>
+        <option value="meses">Meses</option>
+        <option value="años">Años</option>
+        <option value="dias">Días</option>
+      </select> </p>
+    </form>
+
+  <input type="submit" id='calcular002' class='boton' value="Calcular"><br>
+  <input type="number" id='resultado2' class="resultadoPantalla"  placeholder="Tasa de Interes" disabled><b>%</b>
+  </div>
+
+  <h2>Calculadora de Capital Inicial</h2>
+
+  <div class="calculadora3">
+    <p> <b class='texto1'> Capital Final </b> <br> <input type="number" id='capitalFinal2' class="valoresCuadro" placeholder="0"><b>$</b> <br>
+    <b class='texto1'>  Capital Inicial</b> <br> <input type="number" id='capital2' class="valoresCuadro" placeholder="0"><b>$</b> <br>
+    <b class='texto1'>  Tiempo</b> <br> <input type="number" id='tiempo2' class="valoresCuadro" placeholder="0">
+    <form name=formulario2>
+      <select  name="listaTiempo2" class="listas">
+        <option value="escoge" disabled selected>Selecciona Cantidad de Tiempo...</option>
+        <option value="meses">Meses</option>
+        <option value="años">Años</option>
+        <option value="dias">Días</option>
+      </select> </p>
+    </form>
+  <input type="submit" id='calcular002' class='boton' value="Calcular"><br>
+  <input type="number" id='resultado2' class="resultadoPantalla" placeholder="Capital Inicial" disabled><b>%</b>
+  </div>
+  <script type="text/javascript" src='./js/interes_simple.js'></script>
+  </body>
+</html>

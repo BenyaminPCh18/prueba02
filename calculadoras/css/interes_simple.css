@@ -1,0 +1,93 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+*,*::after,*::before{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  font-size: 1.2em;
+}
+h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  border: 2px solid black;
+  height: 100px;
+}
+.valoresCuadro{
+  text-align: right;
+  width: 80%;
+  height: 25px;
+  font-size: 1.02em;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.calculadora1,.calculadora2,.calculadora3{
+  background-color:#FAF631;/*fonde do calculadora*/
+  height: 360px;
+  width: 500px;
+  margin-left: 30px;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+.resultadoPantalla{
+  width: 80%;
+  height: 25px;
+  font-size: 1.05em;
+}
+.boton{
+  width: 75%;
+  height: 25px;
+  margin: 5px 15px;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  font-size: 1.01em;
+  padding: 1px 0;
+}
+.boton:hover{
+  background-color: #ddd;
+  color: black;
+}
+.listas{
+  width: 65%;
+  height: 25px;
+  font-size: 0.8em;
+}
+.texto1{
+  margin-left: 110px;
+}
+.division,.textoAyuda {
+  color: red;
+}
+.textoAyuda{
+  width: 300px;
+  display: inline;
+  margin-left: 20px;
+}
+.enlace{
+  display: inline-block;
+  text-decoration: none;
+  background-color: #1C258C;/*azul oscuro*/
+  color:#fff;
+  border-radius: 4px;
+  padding: 3px 10px;
+}
+.enlace:hover{
+  background-color: #ddd;
+  color:#000;
+}
+p{
+  margin-bottom: 5px;
+}
+/*
+.calculadoras{
+  height: 900px;
+  width: 520px;
+  border: 2px solid black;
+}*/

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora I.Compuesto</title>
+    <link rel="stylesheet" href="./css/interes_compuesto.css">
+  </head>
+  <body>
+    <h1>Calculadora de interés Compuesto</h1>
+    <div class="calculadora1">
+      <!-- capital inicial -->
+      <p>Capital Inicial</p>  <input type="number" class="casilla" placeholder="0" id='capital'>$ <br>
+      <!-- tasa de interes -->
+      <p>Tasa de Interés</p> <input type="number"class="casilla"id='tasa' placeholder="0">%
+      <form class="" name=formularioInteres>
+        <select class="" name="listaInteres1">
+          <option value="" disabled selected>Selecciona Tipo de Interes...</option>
+          <option value="anual">anual</option>
+          <option value="mensual">mensual</option>
+        </select>
+      </form>
+      <!-- tiempo -->
+      <p>Tiempo</p> <input type="number"class="casilla"id='tiempo'>
+      <form class="" name="formularioTiempo">
+        <select class="" name="listaTiempo1">
+          <option value='' disabled selected>Selecciona cantidad de Tiempo...</option>
+          <option value="años">años</option>
+          <option value="meses">meses</option>
+          <option value="dias">días</option>
+        </select>
+      </form>
+      <!-- calcular y resultado -->
+      <input type="submit" name="" class="boton"id='bCalcular' value="Calcular">
+      <input type="number" name="" id='resultado1' class="boton" placeholder="Interés Generado" disabled>
+    </div>
+    <!-- calculadora 2 -->
+    <p>Calculadora de Capital Final</p>
+      Capital Inicial <br>
+      <input type="number" class="casilla" placeholder="0" id='capitalInicial'>$<br>
+      Tasa de Interés <br>
+      <input type="number" class="casilla" placeholder="0" id='interes02'>% <br>
+      <!-- formulario 2 -->
+      <form class="" name=formularioInteres2>
+        <select class="" name="listaInteres2">
+          <option value="" disabled selected>Selecciona Tipo de Interes...</option>
+          <option value="anual">anual</option>
+          <option value="mensual">mensual</option>
+        </select>
+      </form>
+      Tiempo <br><input type="number"class="casilla"id='tiempo2'> <br>
+      <form class="" name="formularioTiempo2">
+        <select class="" name="listaTiempo2">
+          <option value='' disabled selected>Selecciona cantidad de Tiempo...</option>
+          <option value="años">años</option>
+          <option value="meses">meses</option>
+          <option value="dias">días</option>
+        </select>
+      </form>
+      <input type="submit" name="" class="boton"id='bCalcular2' value="Calcular">
+      <input type="number" name="" id='resultado2' class="boton" placeholder="Capital FInal" disabled>
+    </p>
+
+
+    <script type="text/javascript" src='./js/interes_compuesto.js'></script>
+  </body>
+</html>

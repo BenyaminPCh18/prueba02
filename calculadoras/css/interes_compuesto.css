@@ -1,0 +1,32 @@
+*{
+  font-size: 1.1em;
+}
+body{
+  background-color: #ddd;
+}
+.calculadora1{
+  border: 1px solid #000;
+  width: 70%;
+  padding: 15px;
+  border-radius: 2rem;
+  background-color: pink;
+}
+.calculadora1>p{
+  text-align: center;
+  margin-bottom: 2px;
+}
+.casilla,form{
+  margin-left:20px;
+}
+.boton{
+  display: block;
+  margin: 10px auto;
+}
+#bCalcular{
+    background-color:skyblue;
+    padding: 3px 30%;
+    border-radius: 2rem;
+}
+#bCalcular:hover{
+  background-color: orange;
+}
